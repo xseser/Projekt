@@ -1,0 +1,71 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACK	util.h	17;"	d
+APP_PKT	util.h	20;"	d
+DWARF	main.h	24;"	d
+FALSE	main.h	14;"	d
+FINISH	util.h	21;"	d
+FLAGS	Makefile	/^FLAGS=-DDEBUG -g$/;"	m
+GNOME	main.h	25;"	d
+HEADERS	Makefile	/^HEADERS=$(SOURCES:.cpp=.h)$/;"	m
+InFinish	util.h	/^typedef enum {InRun, InMonitor, InWantSight, InWantPin, InWantWeapon, InSection, InFinish} state_t;$/;"	e	enum:__anon2
+InMonitor	util.h	/^typedef enum {InRun, InMonitor, InWantSight, InWantPin, InWantWeapon, InSection, InFinish} state_t;$/;"	e	enum:__anon2
+InRun	util.h	/^typedef enum {InRun, InMonitor, InWantSight, InWantPin, InWantWeapon, InSection, InFinish} state_t;$/;"	e	enum:__anon2
+InSection	util.h	/^typedef enum {InRun, InMonitor, InWantSight, InWantPin, InWantWeapon, InSection, InFinish} state_t;$/;"	e	enum:__anon2
+InWantPin	util.h	/^typedef enum {InRun, InMonitor, InWantSight, InWantPin, InWantWeapon, InSection, InFinish} state_t;$/;"	e	enum:__anon2
+InWantSight	util.h	/^typedef enum {InRun, InMonitor, InWantSight, InWantPin, InWantWeapon, InSection, InFinish} state_t;$/;"	e	enum:__anon2
+InWantWeapon	util.h	/^typedef enum {InRun, InMonitor, InWantSight, InWantPin, InWantWeapon, InSection, InFinish} state_t;$/;"	e	enum:__anon2
+MAINH	main.h	2;"	d
+MPI_PAKIET_T	util.cpp	/^MPI_Datatype MPI_PAKIET_T;$/;"	v
+NITEMS	util.h	13;"	d
+PIN	main.h	21;"	d
+RELEASE	util.h	19;"	d
+REQUEST	util.h	18;"	d
+ROOT	main.h	18;"	d
+SEC_IN_STATE	main.h	15;"	d
+SIGHT	main.h	20;"	d
+SOURCES	Makefile	/^SOURCES=$(wildcard *.cpp)$/;"	m
+STATE_CHANGE_PROB	main.h	16;"	d
+TRUE	main.h	13;"	d
+UTILH	util.h	2;"	d
+WATEK_GLOWNY_H	watek_glowny.h	2;"	d
+WATEK_KOMUNIKACYJNY_H	watek_komunikacyjny.h	2;"	d
+WEAPON	main.h	22;"	d
+ackDwarves	main.cpp	/^int ackDwarves = 0;$/;"	v
+ackGnomes	main.cpp	/^int ackGnomes = 0;$/;"	v
+bronie	main.cpp	/^int bronie = 0;$/;"	v
+changeState	util.cpp	/^void changeState( state_t newState )$/;"	f
+check_thread_support	main.cpp	/^void check_thread_support(int provided)$/;"	f
+debug	main.h	59;"	d
+debug	main.h	61;"	d
+finalizuj	main.cpp	/^void finalizuj()$/;"	f
+inicjuj_typ_pakietu	util.cpp	/^void inicjuj_typ_pakietu()$/;"	f
+main	main.cpp	/^int main(int argc, char **argv)$/;"	f
+mainLoopDwarf	watek_glowny.cpp	/^void mainLoopDwarf(int gnomes, int dwarves)$/;"	f
+mainLoopGnome	watek_glowny.cpp	/^void mainLoopGnome(int gnomes, int dwarves, int sights, int pins)$/;"	f
+name	util.cpp	/^    const char *name;$/;"	m	struct:tagNames_t	file:
+packet_t	util.h	/^} packet_t;$/;"	t	typeref:struct:__anon1
+println	main.h	65;"	d
+rank	main.cpp	/^int rank, size;$/;"	v
+sendPacket	util.cpp	/^void sendPacket(packet_t *pkt, int destination, int tag)$/;"	f
+size	main.cpp	/^int rank, size;$/;"	v
+src	util.h	/^    int src;  $/;"	m	struct:__anon1
+stan	util.cpp	/^state_t stan=InRun;$/;"	v
+startComDwarf	watek_komunikacyjny.cpp	/^void *startComDwarf(void *ptr)$/;"	f
+startComGnome	watek_komunikacyjny.cpp	/^void *startComGnome(void *ptr)$/;"	f
+stateMut	util.cpp	/^pthread_mutex_t stateMut = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+state_t	util.h	/^typedef enum {InRun, InMonitor, InWantSight, InWantPin, InWantWeapon, InSection, InFinish} state_t;$/;"	t	typeref:enum:__anon2
+tag	util.cpp	/^    int tag;$/;"	m	struct:tagNames_t	file:
+tag2string	util.cpp	/^const char *const tag2string( int tag )$/;"	f
+tagNames	util.cpp	/^} tagNames[] = { { "pakiet aplikacyjny", APP_PKT }, { "finish", FINISH}, $/;"	v	typeref:struct:tagNames_t
+tagNames_t	util.cpp	/^struct tagNames_t{$/;"	s	file:
+threadKom	main.cpp	/^pthread_t threadKom;$/;"	v
+ts	util.h	/^    int ts;       \/* timestamp (zegar lamporta *\/$/;"	m	struct:__anon1
+vClock	main.cpp	/^int vClock = 0;$/;"	v
+vClockMut	util.cpp	/^pthread_mutex_t vClockMut = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+what	util.h	/^    int what;$/;"	m	struct:__anon1
+who	util.h	/^    int who;     \/* przykładowe pole z danymi; można zmienić nazwę na bardziej pasującą *\/$/;"	m	struct:__anon1
